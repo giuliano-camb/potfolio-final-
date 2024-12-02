@@ -1,0 +1,172 @@
+.header-bar {
+    background-color: #D2A17E; 
+    width: 100%; 
+    height: 100px;
+    text-align: center justify;
+    padding-left: 20px;
+}
+.titles{
+    display: flex;
+    gap: 60px; 
+   justify-content: flex-end;
+   padding-right: 40px;
+}
+
+.violet-title {
+   
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: flex-start;
+}
+.contenedor {
+    display: flex;
+    padding: 10px;
+}
+.Imagen{
+    width: 20%;
+    text-align: right;
+    margin-left: 50px;
+}
+
+.Soy{
+   width: 15%;
+   
+}
+.TT{
+    display: flex;
+}
+.Image{
+    width: 10%;
+   
+}
+.Text{
+    text-align: right;
+}
+.header-bar h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: flex-start;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #d29c73; /* Color naranja */
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+header a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 70px); /* Ajusta el espacio del header */
+}
+.formulario {
+    background-color: #4a5a6a;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+.formulario input, .formulario select, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.formulario textarea {
+    resize: none;
+    height: 100px;
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+
+}
+.botones button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botones .enviar {
+    background-color: #4caf50;
+    color: white;
+}
+.botones .borrar {
+    background-color: #f44336;
+    color: white;
+}
+.botones button:hover {
+    opacity: 0.9;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed; /* Fija el footer */
+    bottom: 0;       /* Lo coloca en la parte inferior */
+    left: 0;
+    width: 100%;    
+    z-index: 1000;
+}
+.certifics {
+ padding: 10px;   
+}
+
+#backToTopBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+#backToTopBtn:hover {
+    background-color: #000;
+}
